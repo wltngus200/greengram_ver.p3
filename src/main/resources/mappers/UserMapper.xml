@@ -10,8 +10,9 @@
     </insert>
 
     <select id="getUserId">
-
-
+        SELECT user_id, uid, upw, nm, pic, created_at, updated_at
+        FROM user
+        WHERE uid=#{uid}
     </select>
 
 </mapper>

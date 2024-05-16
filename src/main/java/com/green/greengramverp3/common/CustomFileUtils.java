@@ -1,12 +1,13 @@
 package com.green.greengramverp3.common;
 
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.File;
 import java.util.UUID;
 
-
+@Component
 public class CustomFileUtils {
     //할 일: 랜덤이름 생성(확장자 따서 붙이기), 폴더 생성, 저장 메소드
     private final String uploadPath;

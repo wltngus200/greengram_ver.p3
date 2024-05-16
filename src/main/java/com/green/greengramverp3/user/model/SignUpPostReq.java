@@ -6,7 +6,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class SignUpPostReq {
+public class SignUpPostReq {//가입
     @JsonIgnore
     private long userId;
 
